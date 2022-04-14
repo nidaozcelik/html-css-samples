@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef1f4;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.table-wrapper {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  box-shadow: 3px 3px 3px 3px #ddd;
+}
+
+.table-wrapper table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table-wrapper table th {
+  background-color: #f2f5f7;
+  padding: 0.8rem;
+  color: #677685;
+  font-size: 0.8rem;
+}
+
+.table-wrapper table td {
+  padding: 1rem 0.6rem;
+  border-top: 1px solid #e3e9ed;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #2e363f;
+}
+
+.ellipsis {
+  letter-spacing: 1px;
+  text-align: center;
+  overflow: visible;
+  font-size: 30px;
+  display: block;
+}
+
+.ellipsis:after {
+  content: "\B7\B7\B7";
+  display: inline-block;
+  color: #9da9b5;
+  position: relative;
+}
+
+.subtext {
+  display: flex;
+  flex-direction: column;
+  color: #677685;
+  font-size: 0.7rem;
+  padding-top: 0.2rem;
+}
+
+img {
+  border-radius: 40%;
+  width: 2rem;
+}
+
+.box {
+  border-radius: 2rem;
+  text-align: center;
+  padding: 4px;
+}
+
+.box-style-one {
+  background-color: #d7f5ea;
+  width: 4rem;
+}
+
+.box-style-two {
+  background-color: #fbf8de;
+  width: 8rem;
+}

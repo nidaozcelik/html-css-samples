@@ -1,0 +1,58 @@
+.row{
+  background-color:red;
+  width: 1000px;
+  position:relative;
+  overflow-x: auto; 
+  display:flex;
+  }  
+  
+.box{
+  display:flex;
+}
+
+.box-item{
+  width: 250px;
+  height: 250px;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.box-one{
+  background-color:rgb(142, 223, 76);
+
+}
+
+.box-two{
+  background-color:rgb(44, 161, 228);
+
+}
+
+.box-three{
+  background-color:rgb(245, 126, 16);
+
+}
+
+.box-four{
+  background-color:rgba(245, 102, 197, 0.918);
+
+}
+
+.box-five{
+  background-color:rgb(37, 234, 248);
+
+}
+
+.box-six{
+  background-color:rgb(64, 255, 214);
+
+}
+
+.box-seven{
+  background-color:rgb(232, 241, 106);
+
+}

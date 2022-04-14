@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #eee;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 40%;
+  max-width: 100%;
+}
+
+.box {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+  width: 48rem;
+  display: flex;
+}
+
+@media screen and (max-width:768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.avatar {
+  width: 13rem;
+  margin-right: 1rem;
+}
+
+.box-inner {
+  background-color: #fafafa;
+  padding: 2rem;
+  overflow: hidden;
+  box-shadow: 0 3px 3px #ddd;
+}
+
+.box-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b4048;
+  margin: 0;
+}
+
+.box-content {
+  margin-top: -0.8rem;
+  line-height: 1.5rem;
+  padding: 0.2rem;
+}
+
+.box-footer {
+  display: flex;
+  line-height: 0.5rem;
+  padding: 0.2rem;
+}
+
+.box-time {
+  color: #88929a;
+  font-weight: inherit;
+  margin-bottom: 1rem;
+}
+
+.box-footer-action {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem;
+  color: #777778;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.material-icons {
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}

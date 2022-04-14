@@ -1,0 +1,98 @@
+.row{
+  background-color:red;
+  width: 80rem;
+  height: 40rem;
+  position:relative;
+  overflow: auto; 
+}  
+  
+.box{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.box-item{
+  width: calc(20rem - 9px);
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.box-one{
+  background-color:rgb(142, 223, 76);
+
+}
+
+.box-two{
+  background-color:rgb(44, 161, 228);
+
+}
+
+.box-three{
+  background-color:rgb(245, 126, 16);
+
+}
+
+.box-four{
+  background-color:rgba(245, 102, 197, 0.918);
+
+}
+
+.box-five{
+  background-color:rgb(37, 234, 248);
+
+}
+
+.box-six{
+  background-color:rgb(64, 255, 214);
+
+}
+
+.box-seven{
+  background-color:rgb(219, 31, 204);
+
+}
+.box-eight{
+  background-color:rgb(110, 14, 139);
+
+}
+.box-nine{
+  background-color:rgb(5, 128, 56);
+
+}
+.box-ten{
+  background-color:rgb(217, 230, 40);
+
+}
+
+.box-eleven{
+  background-color:rgb(103, 156, 236);
+
+}
+.box-twelve{
+  background-color:rgb(245, 102, 77);
+
+}
+.box-thirteen{
+  background-color:rgb(12, 128, 31);
+
+}
+.box-fourteen{
+  background-color:rgb(139, 16, 43);
+
+}
+
+.box-fifteen{
+  background-color:rgb(99, 59, 172);
+
+}
+
+.box-sixteen{
+  background-color:rgb(224, 187, 22);
+
+}
